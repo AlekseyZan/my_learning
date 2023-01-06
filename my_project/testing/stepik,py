@@ -1,0 +1,7 @@
+s = input()
+prefix = input()
+postfix = input()
+if s.endswith(postfix) and s.startswith(prefix):
+    print("True")
+else:
+    print("False")
